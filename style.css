@@ -1,0 +1,18 @@
+body {
+	text-align: center;
+	font-size: 20px;
+	display:block;
+	margin:0 auto;
+	padding-top:25px;
+}
+
+button {
+	font-size: 16px;
+}
+
+#tetris{
+	display:block;
+	margin:0 auto;
+	border: 2px solid gray;
+	background-color: black;
+}

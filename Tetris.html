@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<script type="text/javascript" src="script.js"></script>
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<meta charset="utf-8">
+		<title>Tetris</title>
+		<form>
+			Висота(10<=x<=50): <input type="number" name="height">
+			Довжина(10<=x<=50): <input type="number" name="length">
+			<button type="button" id="start_game" onclick="start(height.value, length.value)">Розпочати гру</button><br><br><br>
+		</form>
+	</head>
+	<body>
+		<canvas id="tetris" width="0" height="0"></canvas>
+	</body>
+</html>
